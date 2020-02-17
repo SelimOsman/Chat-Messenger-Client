@@ -1,2 +1,2 @@
 # Chat-Messenger-Front-End
-Front end for a chat messenger program developed in C#
+Client for a chat messenger program developed in C#(Windows Forms)

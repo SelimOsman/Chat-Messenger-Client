@@ -1,0 +1,9 @@
+C:\Users\User\Documents\PROGRAMMING\Portfolio\Chat-Messenger-Client\bin\Debug\Chat_Messenger_Client.exe.config
+C:\Users\User\Documents\PROGRAMMING\Portfolio\Chat-Messenger-Client\bin\Debug\Chat_Messenger_Client.exe
+C:\Users\User\Documents\PROGRAMMING\Portfolio\Chat-Messenger-Client\bin\Debug\Chat_Messenger_Client.pdb
+C:\Users\User\Documents\PROGRAMMING\Portfolio\Chat-Messenger-Client\obj\Debug\Chat_Messenger_Client.csprojAssemblyReference.cache
+C:\Users\User\Documents\PROGRAMMING\Portfolio\Chat-Messenger-Client\obj\Debug\Chat_Messenger_Client.Properties.Resources.resources
+C:\Users\User\Documents\PROGRAMMING\Portfolio\Chat-Messenger-Client\obj\Debug\Chat_Messenger_Client.csproj.GenerateResource.cache
+C:\Users\User\Documents\PROGRAMMING\Portfolio\Chat-Messenger-Client\obj\Debug\Chat_Messenger_Client.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\PROGRAMMING\Portfolio\Chat-Messenger-Client\obj\Debug\Chat_Messenger_Client.exe
+C:\Users\User\Documents\PROGRAMMING\Portfolio\Chat-Messenger-Client\obj\Debug\Chat_Messenger_Client.pdb
