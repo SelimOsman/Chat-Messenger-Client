@@ -110,5 +110,17 @@
   <ItemGroup>
     <None Include="Images\ConnectForm\exitBtn_Clicked.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ConnectForm\connectBtn_Clicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ConnectForm\connectBtn_Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ConnectForm\signUpBtn_Clicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ConnectForm\signUpBtn_Hover.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

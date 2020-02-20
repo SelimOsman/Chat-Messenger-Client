@@ -18,12 +18,8 @@ namespace Chat_Messenger_Client
             InitializeComponent();
         }
 
-        private void exitBtn_Click(object sender, EventArgs e)
-        {
-            exitBtn.Image = Resources.exitBtn_Clicked;
-            Application.Exit();
-        }
 
+        #region exitBtn events
         private void exitBtn_MouseHover(object sender, EventArgs e)
         {
             exitBtn.Image = Resources.exitBtn_Hover;
@@ -33,5 +29,40 @@ namespace Chat_Messenger_Client
         {
             exitBtn.Image = Resources.exitBtn;
         }
+
+        private void exitBtn_MouseDown(object sender, MouseEventArgs e)
+        {
+            exitBtn.Image = Resources.exitBtn_Clicked;
+        }
+
+        private void exitBtn_MouseUp(object sender, MouseEventArgs e)
+        {
+            exitBtn.Image = Resources.exitBtn;
+            Application.Exit();
+        }
+        #endregion
+
+        #region signUpBtn events
+        private void signUpBtn_MouseHover(object sender, EventArgs e)
+        {
+            signUpBtn.Image = Resources.signUpBtn_Hover;
+        }
+
+        private void signUpBtn_MouseLeave(object sender, EventArgs e)
+        {
+            signUpBtn.Image = Resources.signUpBtn;
+        }
+
+        private void signUpBtn_MouseDown(object sender, MouseEventArgs e)
+        {
+            signUpBtn.Image = Resources.signUpBtn_Clicked;
+        }
+
+        private void signUpBtn_MouseUp(object sender, MouseEventArgs e)
+        {
+            signUpBtn.Image = Resources.signUpBtn;
+        }
+        #endregion
+
     }
 }

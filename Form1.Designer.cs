@@ -124,9 +124,10 @@
             this.exitBtn.Size = new System.Drawing.Size(231, 43);
             this.exitBtn.TabIndex = 3;
             this.exitBtn.UseVisualStyleBackColor = true;
-            this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
+            this.exitBtn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.exitBtn_MouseDown);
             this.exitBtn.MouseLeave += new System.EventHandler(this.exitBtn_MouseLeave);
             this.exitBtn.MouseHover += new System.EventHandler(this.exitBtn_MouseHover);
+            this.exitBtn.MouseUp += new System.Windows.Forms.MouseEventHandler(this.exitBtn_MouseUp);
             // 
             // signUpBtn
             // 
@@ -138,6 +139,10 @@
             this.signUpBtn.Size = new System.Drawing.Size(231, 43);
             this.signUpBtn.TabIndex = 2;
             this.signUpBtn.UseVisualStyleBackColor = true;
+            this.signUpBtn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.signUpBtn_MouseDown);
+            this.signUpBtn.MouseLeave += new System.EventHandler(this.signUpBtn_MouseLeave);
+            this.signUpBtn.MouseHover += new System.EventHandler(this.signUpBtn_MouseHover);
+            this.signUpBtn.MouseUp += new System.Windows.Forms.MouseEventHandler(this.signUpBtn_MouseUp);
             // 
             // Form1
             // 

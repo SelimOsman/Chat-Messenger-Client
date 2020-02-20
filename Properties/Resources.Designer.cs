@@ -93,6 +93,26 @@ namespace Chat_Messenger_Client.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap connectBtn_Clicked {
+            get {
+                object obj = ResourceManager.GetObject("connectBtn_Clicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap connectBtn_Hover {
+            get {
+                object obj = ResourceManager.GetObject("connectBtn_Hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exitBtn {
             get {
                 object obj = ResourceManager.GetObject("exitBtn", resourceCulture);
@@ -136,6 +156,26 @@ namespace Chat_Messenger_Client.Properties {
         internal static System.Drawing.Bitmap signUpBtn {
             get {
                 object obj = ResourceManager.GetObject("signUpBtn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap signUpBtn_Clicked {
+            get {
+                object obj = ResourceManager.GetObject("signUpBtn_Clicked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap signUpBtn_Hover {
+            get {
+                object obj = ResourceManager.GetObject("signUpBtn_Hover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
