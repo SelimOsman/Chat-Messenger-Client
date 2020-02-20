@@ -19,29 +19,6 @@ namespace Chat_Messenger_Client
         }
 
 
-        #region exitBtn events
-        private void exitBtn_MouseHover(object sender, EventArgs e)
-        {
-            exitBtn.Image = Resources.exitBtn_Hover;
-        }
-
-        private void exitBtn_MouseLeave(object sender, EventArgs e)
-        {
-            exitBtn.Image = Resources.exitBtn;
-        }
-
-        private void exitBtn_MouseDown(object sender, MouseEventArgs e)
-        {
-            exitBtn.Image = Resources.exitBtn_Clicked;
-        }
-
-        private void exitBtn_MouseUp(object sender, MouseEventArgs e)
-        {
-            exitBtn.Image = Resources.exitBtn;
-            Application.Exit();
-        }
-        #endregion
-
         #region signUpBtn events
         private void signUpBtn_MouseHover(object sender, EventArgs e)
         {
@@ -64,5 +41,49 @@ namespace Chat_Messenger_Client
         }
         #endregion
 
+        #region exitBtn events
+        private void exitBtn_MouseHover(object sender, EventArgs e)
+        {
+            exitBtn.Image = Resources.exitBtn_Hover;
+        }
+
+        private void exitBtn_MouseLeave(object sender, EventArgs e)
+        {
+            exitBtn.Image = Resources.exitBtn;
+        }
+
+        private void exitBtn_MouseDown(object sender, MouseEventArgs e)
+        {
+            exitBtn.Image = Resources.exitBtn_Clicked;
+        }
+
+        private void exitBtn_MouseUp(object sender, MouseEventArgs e)
+        {
+            exitBtn.Image = Resources.exitBtn;
+            Application.Exit();
+        }
+
+
+        #endregion
+
+        private void connectBtn_MouseHover(object sender, EventArgs e)
+        {
+            connectBtn.Image = Resources.connectBtn_Hover;
+        }
+
+        private void connectBtn_MouseLeave(object sender, EventArgs e)
+        {
+            connectBtn.Image = Resources.connectBtn;
+        }
+
+        private void connectBtn_MouseDown(object sender, MouseEventArgs e)
+        {
+            connectBtn.Image = Resources.connectBtn_Clicked;
+        }
+
+        private void connectBtn_MouseUp(object sender, MouseEventArgs e)
+        {
+            connectBtn.Image = Resources.connectBtn;
+        }
     }
 }

@@ -113,6 +113,10 @@
             this.connectBtn.Size = new System.Drawing.Size(231, 43);
             this.connectBtn.TabIndex = 6;
             this.connectBtn.UseVisualStyleBackColor = true;
+            this.connectBtn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.connectBtn_MouseDown);
+            this.connectBtn.MouseLeave += new System.EventHandler(this.connectBtn_MouseLeave);
+            this.connectBtn.MouseHover += new System.EventHandler(this.connectBtn_MouseHover);
+            this.connectBtn.MouseUp += new System.Windows.Forms.MouseEventHandler(this.connectBtn_MouseUp);
             // 
             // exitBtn
             // 
