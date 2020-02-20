@@ -16,5 +16,10 @@ namespace Chat_Messenger_Client
         {
             InitializeComponent();
         }
+
+        private void exitBtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
