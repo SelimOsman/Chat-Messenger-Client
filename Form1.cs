@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Chat_Messenger_Client.Properties;
 
 namespace Chat_Messenger_Client
 {
@@ -19,7 +20,18 @@ namespace Chat_Messenger_Client
 
         private void exitBtn_Click(object sender, EventArgs e)
         {
+            exitBtn.Image = Resources.exitBtn_Clicked;
             Application.Exit();
+        }
+
+        private void exitBtn_MouseHover(object sender, EventArgs e)
+        {
+            exitBtn.Image = Resources.exitBtn_Hover;
+        }
+
+        private void exitBtn_MouseLeave(object sender, EventArgs e)
+        {
+            exitBtn.Image = Resources.exitBtn;
         }
     }
 }
